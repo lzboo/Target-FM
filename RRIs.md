@@ -14,7 +14,7 @@
   
   - **negative**: 32,284
   
-  <img src="https://raw.githubusercontent.com/lzboo/ImgStg/main/2022/09/01-10-33-56-1.png" title="" alt="1.png" data-align="center">
+  <img title="" src="https://raw.githubusercontent.com/lzboo/ImgStg/main/2022/09/01-10-33-56-1.png" alt="1.png" data-align="center" width="492">
 
 ### 1.2 Test
 
@@ -26,14 +26,14 @@
   
   - **negative**: 548 (randomly sampled 548 positive pairs for ten times to balance the number of positive and negative pairs)
   
-  <img title="" src="https://raw.githubusercontent.com/lzboo/ImgStg/main/2022/09/01-10-35-01-4.png" alt="4.png" data-align="center" width="381">
+  <img title="" src="https://raw.githubusercontent.com/lzboo/ImgStg/main/2022/09/01-10-35-01-4.png" alt="4.png" data-align="center" width="309">
 
 ## II Experiment
 
 ### Result
 
 |             | DeepTarget(bs=32) | Bert + fc (bs=32) | Bert + 1d-cnn(bs=32) | Bert + fc (bs=128) | Bert + 1d-cnn(bs=128) | Bert + 1d-cnn(bs=128 + lr_sch) |
-|:-----------:|:-----------------:|:-----------------:|:--------------------:|:------------------:|:---------------------:| ------------------------------ |
+|:-----------:|:-----------------:|:-----------------:|:--------------------:|:------------------:|:---------------------:|:------------------------------:|
 | set1        | 0.7729            | 0.8208            | 0.7954               | 0.7811             | 0.8094                | 0.8237                         |
 | set2        | 0.7934            | 0.8338            | 0.8323               | 0.8349             | 0.8332                | 0.8393                         |
 | set3        | 0.7948            | 0.8364            | 0.8310               | 0.8141             | 0.8380                | 0.8292                         |
